@@ -1,5 +1,17 @@
 console.log("sarah")
 
-const list = document.querySelector('#list')
-const form = document.querySelector('#form')
-const myInput = document.querySelector('#myInput')
+// to specify the element so it knows its an unordered list element
+const list = document.querySelector<HTMLUListElement>('#list')
+// to specify the element so it knows its a form element
+const form = document.querySelector<HTMLFormElement>('#form')
+//to specify the element so it knows its an input element
+const myInput = document.querySelector<HTMLInputElement>('#myInput')
+
+form?.addEventListener("submit", e => {
+  // dont refresh page
+e.preventDefault()
+
+// if input value is equal to empty string(has a value) or input value equal to null (nothing)return it
+// optional chaining
+if (myInput?.value == "" || myInput?.value == null) return
+} )
