@@ -1,24 +1,22 @@
-# New Project
+# To-Do List
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+## Description
 
-## Available Scripts
+Build a to-do list using TypeScript.
 
-### npm start
+## User Story
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+As a user, I want to add and remove the task
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+## Acceptance Criteria
 
-### npm run build
+1. When a task can be added.
+2. When the task can be removed.
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+## Installations
+```
+npm install
+npm start
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+```
 
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
