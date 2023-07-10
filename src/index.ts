@@ -28,6 +28,8 @@ const newToDo = {
 }
 
 addListItem(newToDo)
+// to ensure after putting value inside the input box its empty.
+myInput.value = "";
 
 } )
 

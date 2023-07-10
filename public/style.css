@@ -7,9 +7,17 @@ h1 {
     text-align: center; */
 /* } */
 
+body {
+    text-align: center;
+    display: flex;
+}
+
 #list {
     font-family: 'Rajdhani', sans-serif;
+    list-style-type: none;
+    margin-right: 100px;
 }
+
 
 div {
     text-align: center;
@@ -19,4 +27,7 @@ div {
     padding: 50px;
     margin: 25px;
     background-color: white;
+    position: fixed;
+    display: block;
+   
 }
