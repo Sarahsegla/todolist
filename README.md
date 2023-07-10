@@ -20,3 +20,7 @@ npm start
 
 ```
 
+## Screen shot
+[ToDoList.webm](https://github.com/Sarahsegla/todolist/assets/117079336/c8f399fc-3157-4fe1-9d3a-5d20bbfda352)
+
+
