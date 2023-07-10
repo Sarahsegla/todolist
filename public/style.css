@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* #form {
+    text-align: center; */
+/* } */
+
+#list {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+div {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 10px solid pink;
+    padding: 50px;
+    margin: 25px;
+    background-color: white;
+}
